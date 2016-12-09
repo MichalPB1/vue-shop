@@ -1,0 +1,33 @@
+{
+  "name": "vue-training-basics",
+  "version": "1.0.0",
+  "description": "Vue training - basics for companies",
+  "author": "Mateusz Gachowski <mateusz.gachowski@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --port 8008"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "vue": "^2.0.1",
+    "vue-router": "^2.0.3",
+    "vuex": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.14.0",
+    "superagent": "^2.3.0",
+    "vue-hot-reload-api": "^2.0.6",
+    "vue-loader": "^9.7.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

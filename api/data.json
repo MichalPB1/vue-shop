@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "title": "iPad",
+        "shortDescription": "The 7.9\" Retina Display makes its debut on the iPad mini, maintaining its enormous 2048 x 1536 native resolution.",
+        "fullDescription": "<p>The 7.9\" Retina Display makes its debut on the iPad mini, maintaining its enormous 2048 x 1536 native resolution. At 326 pixels per inch, the Retina Display can show up to 3.1 million pixels at a time. The Retina Display is also a capacitive touchscreen so you'll be able to utilize all the multi-touch gestures of iOS 7. Its smaller form factor makes it easier to hold in one hand. The iPad mini comes in a silver finish.</p><p>Apple iPad Mini 4, 64GB WiFi+LTE Cellular ( Unlocked) Space Grey. New opened box. Received as a gift on Christmas the 25th and opened the box and did turn on the iPad to test it out but already have the Mini 3, they are not much different so I'm decided to let this one go and keeping the old one. The Apple factory warranty expiring on the 25th December 2016. Comes with unopened USB Charging cord, earpieces and original box. Shipping within USA & Canada. If you have any question, please do not hesitate to ask. Thanks for watching.</p>",
+        "price": 145,
+        "image": "http://dizw242ufxqut.cloudfront.net/images/product/homeelectronicsdocument/electronics/image2/apple_ipad_air_2_wifi_16gb_silver-30379190-4.jpg",
+        "category": 3,
+        "reviews": [
+            {
+                "authorName": "Marek Testowy",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg",
+                "description": "I have the 16g. All I do with it is watch movies, play a few games and surf the net. If you are just gonna do things like that, the 16 is sufficient. I didn't want to spend a lot of money either. ",
+                "rating": 4
+            },
+            {
+                "authorName": "Jacquenett Jalbert",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/svetnam/128.jpg",
+                "description": "Redwood Glen Winery mixes nutty oatmeal elements and a insipid shrimp aroma in their 2002 White Pinot.",
+                "rating": 4.5
+            },
+            {
+                "authorName": "Randy A. Ruffin",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/sngestudio/128.jpg",
+                "description": "The 1995 White Zinfandel from Chateau Beaujolais brings together easy-to-misconstrue boysenberry overtones with a retrograde almond flavor.",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "iPad Pro",
+        "shortDescription": "Any product short description can go here to explain its basic use cases.",
+        "fullDescription": "asdsa",
+        "price": 799,
+        "category": 3,
+        "image": "http://cdn.x-kom.pl/i/setup/images/prod/big/product-large,apple-iphone-6-64gb-gold-207928,pr_2014_10_16_14_28_58_367.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Grilling interface extra",
+        "shortDescription": "Any product short description can go here to explain its basic use cases.",
+        "fullDescription": "<p>Grilling usually involves a significant amount of direct, radiant heat, and tends to be used for cooking meat quickly. Food to be grilled is cooked on a grill (an open wire grid such as a gridiron with a heat source above or below), a grill pan (similar to a frying pan, but with raised ridges to mimic the wires of an open grill), or griddle (a flat plate heated from below).</p><p>Direct heat grilling can expose food to temperatures often in excess of 260 °C (500 °F). Grilled meat acquires a distinctive roast aroma and flavor from a chemical process called the Maillard reaction. The Maillard reaction only occurs when foods reach temperatures in excess of 155 °C (310 °F).</p>",
+        "price": 365,
+        "category": 4,
+        "image": "http://usercontent2.hubimg.com/2665131_f520.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Lotion with Witamin E",
+        "shortDescription": "Replenish and revitalize skin with our skin care products",
+        "fullDescription": "<p>Replenish and revitalize skin with our skin care products - from cleansing face washes to anti-aging serums and face oils - for all skin types, from dry to oily. Our 100% vegetarian products are never tested on animals, and sourced with the finest natural ingredients from around the world.</p>",
+        "price": 19,
+        "category": 2,
+        "image": "http://www.thebodyshop-usa.com/img/packshot/categories/facial-toners_m.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Vitamin C microderma",
+        "shortDescription": "Replenish and revitalize skin with our skin care products",
+        "fullDescription": "<p>Replenish and revitalize skin with our skin care products - from cleansing face washes to anti-aging serums and face oils - for all skin types, from dry to oily. Our 100% vegetarian products are never tested on animals, and sourced with the finest natural ingredients from around the world.</p>",
+        "price": 15,
+        "category": 2,
+        "image": "http://www.thebodyshop-usa.com/images/packshot/products/med_large/vitamin-c-microdermabrasion_m_l.jpg",
+        "reviews": [
+            {
+                "authorName": "Randy A. Ruffin",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg",
+                "description": "Good product. Buy without any concerns",
+                "rating": 5
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Mountain bike",
+        "shortDescription": "Light and very comfortable bike for all routes!",
+        "fullDescription": "<p>Light and very comfortable bike for all routes! Easy to pack to a van and certainly great to show-off to your friends! Its a must have for both city-bikers as mountain bikers.</p>",
+        "price": 200,
+        "category": 1,
+        "image": "http://www.selftrading.co.uk/files/images/bike.jpg",
+        "reviews": [
+            {
+                "authorName": "Marek Testowy",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg",
+                "description": "Very good bike, I like its weight and stability when driving. Surely a good buy!",
+                "rating": 5
+            },
+            {
+                "authorName": "Jacquenett Jalbert",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/svetnam/128.jpg",
+                "description": "I have this kind of stuff. It broke as everything from your cheap store!",
+                "rating": 1
+            },
+            {
+                "authorName": "Randy A. Ruffin",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/sngestudio/128.jpg",
+                "description": "I like it. Its good.",
+                "rating": 4.5
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Grilling products",
+        "shortDescription": "Great products to make your grill taste better than ever!",
+        "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
+        "price": 10,
+        "category": 4,
+        "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
+        "reviews": [
+            {
+                "authorName": "Randy A. Ruffin",
+                "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg",
+                "description": "Not bad but with this price... Think twice!",
+                "rating": 3
+            }
+        ]
+    },
+    {
+        "title": "Testttt",
+        "shortDescription": "Great products to make your grill taste better than ever!",
+        "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
+        "price": 10,
+        "category": 4,
+        "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
+        "id": 10,
+        "reviews": []
+    },
+    {
+        "title": "Testttt",
+        "shortDescription": "Great products to make your grill taste better than ever!",
+        "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
+        "price": 10,
+        "category": 4,
+        "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
+        "id": 11,
+        "reviews": []
+    },
+    {
+        "title": "Testttt",
+        "shortDescription": "Great products to make your grill taste better than ever!",
+        "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
+        "price": 10,
+        "category": 4,
+        "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
+        "id": 12,
+        "reviews": []
+    },
+    {
+        "title": "Testttt",
+        "shortDescription": "Great products to make your grill taste better than ever!",
+        "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
+        "price": 10,
+        "category": 4,
+        "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
+        "id": 13,
+        "reviews": []
+    },
+    {
+        "title": "Testttt",
+        "shortDescription": "Great products to make your grill taste better than ever!",
+        "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
+        "price": 10,
+        "category": 4,
+        "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
+        "id": 14,
+        "reviews": []
+    }
+]
