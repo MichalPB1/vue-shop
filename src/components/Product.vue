@@ -9,7 +9,7 @@
         }
     },
     components: {
-        'products-list-view': ProductsListView,
+        ProductsListView,
     },
     computed: {
       product() {
@@ -54,10 +54,11 @@
     },
     filters: {
         cutString(value) {
-            if(value.length > 200)
+            if(value.length > 200) {
                 return value.substring(0, 150) + '...';
-            else
+            } else {
                 return value;
+            }
         }
     },
   }

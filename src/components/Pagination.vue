@@ -15,12 +15,14 @@ export default {
 
       changePage(page) {
 
-          if(page <= 0)
+        if(page <= 0) {
             this.$emit('change-page', 1);
-          else if(page > this.countPages())
+        } else if(page > this.countPages()) {
             this.$emit('change-page', this.countPages());
-          else
+        } else {
             this.$emit('change-page', page);
+        }
+        
       },
     }
 }

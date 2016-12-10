@@ -4,6 +4,9 @@ import * as request from './request';
 
 Vue.use(Vuex);
 
+const login = 'michal';
+const pass = 'Test123';
+
 const store = new Vuex.Store({
     debug: true,
     state: {
@@ -11,7 +14,12 @@ const store = new Vuex.Store({
         product: [],
         categories: [],
         search: '',
-        cart: []
+        cart: [],
+        user: {
+            isLogged: false,
+            isBadLogin: false,
+            login: '',
+        }
     },
 
     mutations: {
@@ -45,6 +53,20 @@ const store = new Vuex.Store({
 
         ADD_TO_CART (state, product) {
             state.cart.push(product);
+        },
+
+        LOGIN_TRUE (state, data) {
+            state.user.login = data;
+            state.user.isBadLogin = false;
+            state.user.isLogged = true;
+        },
+
+        LOGIN_FALSE (state) {
+            state.user.isBadLogin = true;
+        },
+
+        LOGOUT (state) {
+            state.user.isLogged = false;
         }
     },
 
@@ -71,7 +93,6 @@ const store = new Vuex.Store({
         },
 
         addProduct (store, product) {
-          var _this = this;
           request.addProduct(product).then((response) => {
               if(!response.error) {
                   store.commit('PRODUCT_ADD');
@@ -111,6 +132,20 @@ const store = new Vuex.Store({
 
         addToCart(store, product) {
             store.commit('ADD_TO_CART', product);
+        },
+
+        login(store, data) {
+            let user = JSON.parse(data);
+
+            if(user.login === login && user.password === pass) {
+                store.commit('LOGIN_TRUE', user.login);
+            } else {
+                store.commit('LOGIN_FALSE');
+            }
+        },
+
+        logout(store) {
+            store.commit('LOGOUT');
         }
     }
 });

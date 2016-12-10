@@ -18,7 +18,15 @@
   </head>
   <body>
     <div id="app">
-
+    <nav class="blue-grey darken-4" v-if="isLogged">
+      <div class="nav-wrapper container">
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><router-link to="/manage">Manage</router-link></li>
+          <li><router-link to="/manage/add">Add product</router-link></li>
+          <li><a @click.prevent="logout()">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
       <nav class="nav-extended blue darken-1">
         <div class="nav-wrapper container">
           <div class="row">
@@ -61,6 +69,9 @@
               <div class="col l6 s12">
                 <h5 class="white-text">Footer Content</h5>
                 <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <p>
+                    <router-link to="/manage">Panel Administracyjny</router-link>
+                </p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Kategorie</h5>

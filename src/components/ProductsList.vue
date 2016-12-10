@@ -1,5 +1,4 @@
 <script>
-    import Product from './Product.vue';
     import Pagination from './Pagination.vue';
     import ProductsListView from './ProductsListView.vue';
 
@@ -13,13 +12,11 @@
           }
         },
         created() {
-
             this.$store.dispatch('getProducts', this.$route.params.id);
         },
         components: {
-            'product': Product,
-            'pagination': Pagination,
-            'products-list-view': ProductsListView,
+            Pagination,
+            ProductsListView,
         },
         computed: {
             products() {
@@ -31,16 +28,16 @@
             },
 
             filteredProduts() {
-                if(this.search == '')
+                if(this.search == '') {
                     return this.products;
-                else {
+                } else {
                     return this.products.filter( product => (product.title.toLowerCase().search(this.search.toLowerCase()) != -1 ) );
                 }
             },
 
             pageItems() {
-              var start = (this.currentPage - 1) * this.itemsOnPage;
-              return this.filteredProduts.slice(start, start + this.itemsOnPage);
+                var start = (this.currentPage - 1) * this.itemsOnPage;
+                return this.filteredProduts.slice(start, start + this.itemsOnPage);
             },
 
             filtrPrice() {
@@ -53,30 +50,6 @@
             }
         },
         methods: {
-        //     addProduct() {
-        //         this.$store.dispatch('addProduct', {
-        //             "id": 9,
-        //             "title": "Testttt",
-        //             "shortDescription": "Great products to make your grill taste better than ever!",
-        //             "fullDescription": "<p>A bounch of elements that will help you with your grill and much more! Great products to make your grill taste better than ever!</p>",
-        //             "price": 10,
-        //             "category": 4,
-        //             "image": "https://s7d1.scene7.com/is/image/BedBathandBeyond/259381208148c?$229$",
-        //             "reviews": [
-        //                 {
-        //                     "authorName": "Randy A. Ruffin",
-        //                     "authorImage": "https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg",
-        //                     "description": "Not bad but with this price... Think twice!",
-        //                     "rating": 3
-        //                 }
-        //             ]
-        //         });
-        //     },
-
-            deleteProduct(id) {
-                this.$store.dispatch('deleteProduct', id);
-            },
-
             changePage(page) {
                 this.currentPage = page;
             }
@@ -113,9 +86,6 @@
     </div>
 
     <pagination v-show="pageItems.length" @change-page="changePage" :items-on-page="itemsOnPage" :current-page="currentPage" :elements="filteredProduts.length"></pagination>
-
-    <!-- <a @click.prevent="addProduct" class="btn-floating btn-large waves-effect waves-light red">
-      <i class="material-icons">+</i></a> -->
 
   </div>
 </template>

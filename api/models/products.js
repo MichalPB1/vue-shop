@@ -70,7 +70,7 @@ module.exports = {
 
     removeProduct: function removeProduct(productId) {
         return new Promise(function (resolve, reject) {
-            let products = require('../data.json');
+            let products = JSON.parse(fs.readFileSync(savePath, 'utf8'));
 
             products = products.filter((product) => parseInt(product.id) !== parseInt(productId));
 

@@ -11,9 +11,15 @@ const app = new Vue({
         search: '',
     },
 
+    computed: {
+        isLogged() {
+            return this.$store.state.user.isLogged;
+        }
+    },
+
     components: {
-        'category-menu': CategoryMenu,
-        'cart': Cart
+        CategoryMenu,
+        Cart
     },
 
     methods: {
@@ -27,6 +33,11 @@ const app = new Vue({
         clearSearch() {
             this.search = '';
             this.doSearch();
+        },
+
+        logout() {
+            this.$store.dispatch('logout');
+            router.push('/');
         }
     },
     router,
